@@ -1,0 +1,137 @@
+body{
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+.top-btn-grp{
+padding-top:8px !important;
+
+}
+.top-btn-grp>.btn{
+border-radius:0px;
+background-color:#f5840b;
+border-color:#f5840b;
+}
+.search-form-btn{
+border-radius:0px;
+background-color:#f5840b;
+border-color:#f5840b;
+}
+.main-page-header{
+padding-bottom: 9px;
+margin: 40px 0 20px;
+}
+.ad-box-1{
+background:url('../img/ad-box1-bg.jpg'); 
+background-size: 100% 100%;
+background-repeat:no-repeat;
+min-height:101px;
+background-color:#206ba3;
+padding: 30px 0 0 30px;
+color: #fff;
+font-size: 24px;
+}
+.ad-box-2>img{
+width:100%;
+}
+.main-container{
+padding: 21px 15px 0;
+display: inline-block;
+    width: 100%;
+}
+.search-form{border:1px solid #ccc;
+padding:6px;}
+.search-form>h3{
+margin-top:10px;
+}
+.form-ad-container{margin-bottom:10px;margin-top:50px;}
+/* Carousel Styles */
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+.carousel-inner .active.right { left: 25%; }
+#myCarousel,.custom-carousel{clear:both;}
+.cust-carousel-control{background-image:none !important;
+height: 50px;
+font-size: 40px;
+color: #222;
+width: 7%;
+padding-top: 100px;
+}
+.latest-mob-list{
+margin-top:30px;padding: 0;
+}
+.read-more a{font-weight:bold;color:#9015AD;}
+.list-mobile-post{
+padding: 10px;
+border-bottom: 1px dotted #ccc;
+}
+.footer-area{padding-top:20px;}
+.social-icons a{color:#8e8d8d;font-size:22px;padding:0;}
+.social-icons .fa-facebook:hover{color:#3b5998;}
+.social-icons .fa-twitter:hover{color:#55acee;}
+.social-icons .fa-google-plus:hover{color:#dd4b39;}
+.social-icons .fa-youtube:hover{color:#bb0000;}
+.main-cust-container{margin-right: 30px;
+margin-left: 10px;}
+.latest-mob-list>.col-md-12{padding:0;}
+.cust-panel-heading{background-color:#dddddd !important;}
+.cust-panel-body{background-color:#f5f5f5;}
+@media only screen and (max-width: 321px) { 
+.top-btn-grp{
+padding:0;
+}
+.top-btn-grp>.btn{
+padding: 2px 8px 6px 2px;
+margin-bottom:10px;
+}
+.ad-box-1{
+padding: 96px 0 0 0px;
+text-align:center;
+}
+.top-btn-grp{margin-left:10px !important;}
+
+}
+
+@media (max-width: 434px) {
+  .btn-lg {
+	font-size:11px;
+    padding:4px 6px;
+  }
+  .footer-area{padding-top:8px;}
+}
+@media (max-width: 540px) {
+  .footer-area{font-size:11px;}
+  .social-icons{font-size:12px;}
+}
+@media (max-width: 767px) {
+.top-btn-grp{margin-bottom:10px;}
+}
+@media (max-width: 991px) {
+.col-md-5>.ad-box-2{margin-top:16px;}
+.min-price{margin-bottom:6px;}
+}
+/*search result page css starts here*/
+.mb20 { margin-bottom: 20px; } 
+
+hgroup { padding-left: 15px; border-bottom: 1px solid #ccc; }
+hgroup h1 { font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }
+hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+.search-container-main{margin-top:15px;}
+.search-result .thumbnail { border-radius: 0 !important; }
+.search-result:first-child { margin-top: 0 !important; }
+.search-result { margin-top: 20px; }
+.search-result .col-md-2 { border-right: 1px dotted #ccc; min-height: 140px; }
+.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul li { font: 400 normal .85em "Roboto",Arial,Verdana,sans-serif;  line-height: 30px; }
+.search-result ul li i { padding-right: 5px; }
+.search-result .col-md-7 { position: relative; }
+.search-result h3 { font: 500 normal 1.375em "Roboto",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }
+.search-result h3 > a, .search-result i { color: #248dc1 !important; }
+.search-result p { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; } 
+.search-result span.plus { position: absolute; right: 0; top: 126px; }
+.search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
+.search-result span.plus a:hover { background-color: #414141; }
+.search-result span.plus a i { color: #fff !important; }
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+/*search result page css ends here*/
